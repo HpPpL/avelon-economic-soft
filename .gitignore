@@ -1,0 +1,45 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+*.local
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated reports, exports, and local business documents
+*.xls
+*.xlsx
+*.xlsm
+*.docx
+*.pdf
+*.csv
+!demo_data/*.csv
+reports/
+exports/
+EconomicProject/Report/Results/
+EconomicProject/Report/Charts/
+EconomicProject/Program/Report.xlsx
+EconomicProject/Program/res.xlsx
+EconomicProject/Program/MonteCarlo_All_Data.xlsx
+
+# Build/dist artifacts
+build/
+dist/
+*.egg-info/
